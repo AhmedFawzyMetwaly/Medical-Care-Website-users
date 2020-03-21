@@ -1,0 +1,44 @@
+body{
+    background-color: #fffff4;
+  }
+  .carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-indicators li {
+      background-color: rgb(105, 105, 105);
+  }
+  /* Start Parteners */
+  .card-img-top {
+      width: 70%;
+  }
+  .card {
+      box-shadow: 0 0 15px #000;
+  }
+  .card img{
+      width: 150px;
+      height: 150px;
+  }
+  /* end Parteners 
+  
+  /* Start Of General Classes */
+  .boxshaow {
+      transition: box-shadow 1s;
+  }
+  .boxshaow:hover {
+      box-shadow: 0 0 15px #1dc2c2;
+  }
+  .imageshaow{
+      transition: box-shadow 1s;
+      box-shadow: 0 0 15px gray;
+  
+  }
+  .imageshaow:hover {
+      box-shadow: 0 0 20px black;
+  
+  }

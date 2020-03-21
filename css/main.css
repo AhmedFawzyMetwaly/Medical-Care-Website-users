@@ -1,0 +1,408 @@
+/* Start Of Header Style */
+
+header {
+	position: relative;
+	background-color: black;
+	height: 75vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+header video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+	position: relative;
+	z-index: 2;
+}
+
+header .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+@media (max-width: 768px) {
+	header {
+		background: url('../img/headerBackground.jpg') black no-repeat center center scroll;
+	}
+	header video {
+		display: none;
+	}
+}
+
+/* End Of Header Style */
+
+/* ------------------------------------- */
+
+/* Start Of Search Style */
+
+#search-section {
+	background-color: rgba(13, 95, 95, 0.5);
+	box-shadow: 30px 30px 100px 5px rgb(0, 2, 2) inset, -30px 0 100px 5px rgb(0, 2, 2) inset;
+}
+
+#search-container {
+	/* border: 1.5px solid rgba(2, 26, 26, 1); */
+	/* box-shadow: 30px 30px 0 10px #333, 200px -50px 0 -10px #333; */
+	/* box-shadow: 0px 10px 50px 10px rgb(2, 26, 26) inset; */
+}
+
+#search-container div.col-lg, #search-container div.col-md-6 {
+	padding: 0;
+}
+
+#search-container .form-group {
+	margin: 0;
+}
+
+#search-container select {
+	border-radius: 0;
+}
+
+#search-container select option:hover {
+	background-color: rgba(13, 95, 95, 1);
+}
+
+/* End Of Search Style */
+
+/* ------------------------------------- */
+
+/* Start Of article Style */
+
+#Articles {
+	/* background-color: #00171F; */
+}
+
+.articleHover {
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 60%;
+}
+
+.articleHover-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	transition: all 0.4s;
+}
+
+.articleHover img {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.3s;
+}
+
+.hover-content {
+	position: relative;
+	z-index: 99;
+}
+
+.articleHover-4 img {
+	width: 110%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.articleHover-4 .articleHover-overlay {
+	background: rgba(0, 0, 0, 0.4);
+	z-index: 90;
+}
+
+.articleHover-4-title {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 3rem;
+	z-index: 99;
+}
+
+.articleHover-4-description {
+	position: absolute;
+	top: 2rem;
+	left: 4rem;
+	text-align: right;
+	border-right: 3px solid #fff;
+	padding: 0 1rem;
+	z-index: 99;
+	transform: translateX(-1.5rem);
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.articleHover-4:hover img {
+	width: 100%;
+}
+
+.articleHover-4:hover::after {
+	opacity: 1;
+	transform: none;
+}
+
+.articleHover-4:hover .articleHover-4-description {
+	opacity: 1;
+	transform: none;
+}
+
+.articleHover-4:hover .articleHover-4-description a {
+	color: teal;
+}
+
+.articleHover-4:hover .articleHover-4-description a:hover {
+	color: #0FF;
+}
+
+.articleHover-4:hover .articleHover-overlay {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 992px) {
+	.articleHover-4-description {
+		width: 75%;
+	}
+}
+
+/* End Of article Style */
+
+/* ------------------------------------- */
+
+/* start Mission */
+
+#Mission {
+	/* background-color: #007EA7; */
+}
+
+#Mission .col-md-4 {
+	padding-left: 50px;
+	padding-right: 50px;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+/* #Mission .col-md-4:hover
+	{
+    background: #004d66;
+    color: white;
+	} */
+
+/* #Mission .active
+	{
+		background: #006666;
+		padding: 40px;
+		color: #fff;
+	} */
+
+#Mission .fas {
+	/* border: 1px solid #fff; */
+	/* border-radius: 2px; */
+	color: #b3aeae;
+	font-size: 50px;
+	/* width: 100px; */
+	/* height: 100px; */
+	line-height: 100px;
+}
+
+#Mission h4 {
+	color: #28a7e9;
+	/* font-weight: 600; */
+	padding-top: 10px;
+	padding-bottom: 14px;
+}
+
+/* end Mission */
+
+/* ------------------------------------- */
+
+/* Start Statistics */
+
+#statistics {
+	/* background-color: #00171F; */
+}
+
+.statistics-icons {
+	color: #007EA7;
+}
+
+@media (min-width: 768px) {
+	.border-dotted {
+		border-right-style: dashed;
+		border-color: #00A8E8;
+	}
+}
+
+@media (max-width: 767px) {
+	.count-text {
+		padding-bottom: 20px;
+		padding-top: 8px;
+		border-bottom-style: dotted;
+		border-color: #00A8E8;
+		width: 40%;
+	}
+	.count-text:last-child {
+		/* border-bottom-style: solid; */
+		/*none*/
+	}
+}
+
+/* end Statistics */
+
+/* ------------------------------------- */
+
+/* Start Patien Journey */
+
+#patientJourney {
+	background-color: #00171F;
+}
+
+.card1 {
+	z-index: 0;
+	border: none;
+	position: relative
+}
+
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	color: lightgrey
+}
+
+#progressbar .active {
+	color: rgb(141, 137, 137)
+}
+
+#progressbar li {
+	list-style-type: none;
+	font-size: 15px;
+	width: 25%;
+	float: left;
+	position: relative;
+	font-weight: 400
+}
+
+#progressbar #request:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f0a6"
+}
+
+#progressbar #accepct:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f14a"
+}
+
+#progressbar #appointment:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f073"
+}
+
+#progressbar #rate:before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f005"
+}
+
+#progressbar li:before {
+	width: 50px;
+	height: 50px;
+	line-height: 45px;
+	display: block;
+	font-size: 20px;
+	color: #ffffff;
+	background: lightgray;
+	border-radius: 50%;
+	margin: 0 auto 10px auto;
+	padding: 2px
+}
+
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: lightgray;
+	position: absolute;
+	left: 0;
+	top: 25px;
+	z-index: -1
+}
+
+#progressbar li.active:before {
+	background: var(--colorBefore, rgb(65, 63, 63));
+}
+
+/* end Patien Journey */
+
+/* ------------------------------------- */
+
+/* Start Parteners */
+
+.card-img-top {
+	width: 70%;
+}
+
+.card {
+	box-shadow: 0 0 15px #000;
+}
+
+.card img {
+	width: 150px;
+	height: 150px;
+}
+
+/* end Parteners */
+
+/* ------------------------------------- */
+
+/* ------------------------------------- */
+
+/* Start Of General Classes */
+
+.boxshaow {
+	transition: box-shadow 1s;
+}
+
+.boxshaow:hover {
+	box-shadow: 0 0 15px #1dc2c2;
+}
+
+.imageshaow {
+	transition: box-shadow 1s;
+	box-shadow: 0 0 15px gray;
+}
+
+.imageshaow:hover {
+	box-shadow: 0 0 20px black;
+}
+
+h2 span {
+	color: #28a7e9;
+}
+
+/* End Of General Classes */
+
+/* for sections fadein */
+
+.hideme {
+	opacity: 0;
+}

@@ -1,0 +1,92 @@
+body {
+    /* background-color:#FFFFF4; */
+    background-color: #ebebeb;
+    /* background-color: #D9DBF1; */
+}
+
+.appoint div {
+    height: 6vh;
+    /* background-color: #98c5f2; */
+    background-color: #3399fe;
+    line-height: 6vh;
+}
+
+/* end first part ---------------------------------------------------------------------------- */
+
+/* start second part----------------------------------------- */
+
+aside>div {
+    background-color: #f8f9fa;
+}
+
+aside p {
+    color: #150958;
+}
+
+.infodiv h4 {
+    color: #150958;
+}
+
+.infodiv h6 {
+    color: #c4161c;
+}
+
+/* end of aside---------------------- */
+
+.secdivbgcolor1 {
+    padding: 10px 10px 10px 10px;
+    background-color: #f8f9fa;
+    margin-bottom: 8px;
+}
+
+.secdivbgcolor2 {
+    padding: 10px 10px 10px 10px;
+    background-color: #f8f9fa;
+}
+
+.secdivbgcolor2 h6 {
+    color: #150958;
+}
+
+section h3 {
+    color: #150958;
+}
+/* end section -------------------------*/
+
+/* end second part--------------------------------------------------------- */
+
+/* Test */
+
+.container-fluid .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Rating */
+
+:root {
+    --star-size: 35px;
+    --star-color: rgb(223, 221, 221);
+    --star-background: #fc0;
+}
+
+.Stars {
+    --percent: calc(var(--ratingStars) / 5 * 100%);
+    display: inline-block;
+    font-size: var(--star-size);
+    /* font-family: Times; */
+    line-height: .5;
+}
+
+.Stars::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

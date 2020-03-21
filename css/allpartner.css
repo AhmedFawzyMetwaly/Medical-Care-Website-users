@@ -1,0 +1,27 @@
+/* start of ALL partners --------------------------------------------------------------------------------------------- */
+#allPartners {
+  background-color: #f8f9fa;
+}
+#allPartners h2 span {
+  text-shadow:0 0 3px #020f1b  ;
+}
+.card img {
+  max-width: 250px;
+  max-height: 200px;
+}
+
+.card {
+  text-align: center;
+  background-color: #FFFFF4;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #05386a;
+  color: white;
+}
+.tit{
+  color:#2377ca;
+}

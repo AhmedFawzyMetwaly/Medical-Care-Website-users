@@ -1,0 +1,150 @@
+/* Start Of Choose Button Style */
+
+  .buttons-container {
+    width: 545px;
+    height: 100px;
+    border-radius: 45px;
+    background: #00171F;
+    box-shadow: inset 0 0 2px 2px rgba(0, 0, 0, 0.5);
+ }
+  .buttons-container ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+ }
+ .buttons-container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    height: 90px;
+    width: 105px;
+    background: #00171F;
+    border-top: 1px solid #353535;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.5);
+      transition: all 0.5s;
+      /* flex-grow: 1; */
+ }
+ .buttons-container ul li:nth-of-type(1) {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+ }
+ .buttons-container ul li:last-of-type {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+ }
+ .buttons-container ul li:hover {
+    cursor: pointer;
+ }
+ .buttons-container ul li a {
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all 0.5s;
+ }
+ .buttons-container ul li a:hover {
+     color: gray;
+ }
+ .buttons-container .active {
+    background: rgb(1, 53, 70);
+    border-top: none;
+    border-bottom: 1px solid #252525;
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 0.8);
+ }
+ .buttons-container .active-text {
+    color: #00171F;
+    text-shadow: 0 0 5px #00A8E8;
+ }
+/* End Of Choose Button Style */
+											/* ------------------------------------- */
+
+/* Start Of SignIn/Up Style */
+.signupClass input::placeholder, .signinClass input::placeholder {
+  text-align: center;
+}
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 1rem;
+  font-weight: 900;
+  /* font-size: 1.5rem; */
+}
+
+.card-signin .card-body {
+  padding: 1rem;
+}
+.form-signin .btn {
+  font-size: .8rem;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  /* padding: 1rem; */
+  transition: all 0.5s;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.forgetpassword a {
+  color: #007bff;
+  transition: all 0.5;
+}
+.forgetpassword a:hover {
+  text-decoration: none;
+  color: #ea4335;
+  text-shadow: 0 0 5px gray;  
+}
+
+.form-signin .submit-button {
+  background-color: #00171F;
+  color: #FFFFF4;
+}
+.form-signin .submit-button:hover {
+  background-color: #007EA7;
+  color: #00171F;
+
+}
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.form-signin .btn-google,.form-signin .btn-facebook {
+  font-size: .5rem;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  /* padding: 1rem; */
+  transition: all 0.5s;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+/* Start Of SignIn/Up Style */
