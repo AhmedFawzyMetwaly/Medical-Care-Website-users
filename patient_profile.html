@@ -1,0 +1,242 @@
+<!Doctype html>
+<html>
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Home</title>
+  <link rel="icon" href="img/tabIcon.png">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- Our style -->
+  <link rel="stylesheet" href="css/navFooter.css">
+  <!-- <link rel="stylesheet" href="css/profile.css"> -->
+  <link rel="stylesheet" href="css/patient_profile.css">
+</head>
+
+<body>
+  <!-- ------------------------------------- -->
+  <nav class="navbar navbar-expand-lg navbar-dark backcolor1 text-center">
+    <a class="navbar-brand" href="index.html"><img style="max-width:40px; margin-top: -7px;" src="img/logo.png"></a>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="allArticles.html">Articles <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="allPartners.html">Our Parteners</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="blood_bank_page.html">Blood Bank</a>
+            <a class="dropdown-item" href="lab_page.html">Laboratory</a>
+            <a class="dropdown-item" href="center_page.html">Medical Radiation Centers</a>
+            <a class="dropdown-item" href="hospital_page.html">Hospital</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item">Intensive Care</a>
+            <a class="dropdown-item">incubators</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Contact Us</a>
+        </li>
+      </ul>
+      <a class="btn btn-signInUp" href="signInUp.html">SignIn / Up</a>
+    </div>
+  </nav>
+
+  <!--end nav bar-->
+  <!--start patient profile-->
+  <div class="container mx-auto">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 ">
+        <div class="pt-4 px-4">
+          <h2 class="text-center">Patient Profile</h2>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 ">
+        <div class="card flex-row flex-wrap patient_card1">
+          <div class="card-header">
+            <img src="img/users/1.jpg" class="img-fluid rounded-circle" alt="patient photo">
+          </div>
+            <h4 class="text-center my-3 mx-auto">Yusuf Ali</h4>
+        </div>
+      </div>
+      <div class="col-lg-4   col-md-12 ">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title card-header">Gender</h5>
+            <p class="card-text">female</p>
+            <h5 class="card-title card-header">Birth date</h5>
+            <p class="card-text">november</p>
+            <h5 class="card-title card-header">Email</h5>
+            <p class="card-text">patient@gmail.com</p>
+            <h5 class="card-title card-header">Phone</h5>
+            <p class="card-text">0111111111</p>
+            <a href="#" class="btn btn-primary w-50">Edit</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4   col-md-12 ">
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class=" card-title card-header">blood type</h5>
+            <p class="card-text">O+</p>
+
+
+
+
+            <div class="dropdown mb-3">
+              <span class="btn btn-primary toggle w-100">Diseases</span>
+              <ul class="dropdown-menu-part list-group">
+                <li class="list-group-item">pressure</li>
+                <li class="list-group-item">Diabetes</li>
+                <li class="list-group-item">Paralysis</li>
+              </ul>
+            </div>
+
+            <div class="dropdown mb-3">
+              <span class="btn btn-primary toggle w-100">Treatments</span>
+              <ul class="dropdown-menu-part list-group">
+                <li class="list-group-item">corasor</li>
+                <li class="list-group-item">panadol</li>
+                <li class="list-group-item">congestal</li>
+              </ul>
+            </div>
+            <div class="dropdown mb-3">
+              <span class="btn btn-primary toggle w-100">Medical Reports</span>
+              <ul class="dropdown-menu-part list-group">
+                <li class="list-group-item"><a href="">Report1(xxx) 15-1-2020</a></li>
+                <li class="list-group-item"><a href="">Report2(xxx) 25-1-2020</a></li>
+                <li class="list-group-item"><a href="">Report3(xxx) 13-2-2020</a></li>
+                <li class="list-group-item"><a href="">Report4(xxx) 25-3-2020</a></li>
+                <li class="list-group-item"><a href="">Report5(xxx) 4-4-2020</a></li>
+              </ul>
+            </div>
+
+            <form action="" method="post" enctype="multipart/form-data">
+              <div class="custom-file text-left">
+                <input type="file" class="image custom-file-input" id="customFile" name="profileImage">
+                <label class="custom-file-label" for="customFile">Upload new report</label>
+              </div>
+              <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class=" my-3  row">
+      <div class="col-lg-12 ">
+        <div class="card border-success mb-3">
+          <div class=" card-header bg-transparent border-success">Place notes</div>
+          <input class="card-body text-success">
+        </div>
+        <a href="#" class="btn btn-primary">Add note</a>
+        <a href="#" class="btn btn-primary">Show medical history</a>
+      </div>
+    </div>
+  </div>
+  <!--end profile-->
+  <!--start footer-->
+  <footer class="site-footer backcolor1">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <div class="text-center mb-4 mt-5"><img class="footerLogo" src="img/logo.png"></div>
+          <h6 class="text-center">Medical Care</h6>
+          <!-- <p class="text-justify">our target is to safe your time effort and our target is to safe your time effort and </p> -->
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h6>FAQS</h6>
+          <ul class="footer-faqs">
+            <li>how can i register ?</li>
+            <li>how long it take to get answer ?</li>
+            <li>what is the range that the website cover ?</li>
+            <li>how can i register ?</li>
+            <li>how long it take to get answer ?</li>
+            <li>what is the range that the website cover ?</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h6>About Us </h6>
+          <ul class="footer-faqs">
+            <li>how can i register ?</li>
+            <li>how long it take to get answer ?</li>
+            <li>what is the range that the website cover ?</li>
+            <li>how can i register ?</li>
+            <li>how long it take to get answer ?</li>
+            <li>what is the range that the website cover ?</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h6>contact us</h6>
+          <p> <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <!-- <a class="" href="#"><i class="fa fa-phone"></i></a><br><br> -->
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-signInUp text-white d-block mx-auto w-50">send</button>
+          </form>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-6 col-xs-11">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+            <a href="#">Medical Care Website</a>.
+          </p>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-11">
+          <ul class="social-icons">
+            <li><a class="scroll-to-top" scroll-to-top-time = "1000"><i class="fa fa-arrow-circle-up"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-sm-4 col-xs-11">
+          <ul class="social-icons">
+            <li><a class="googlePlus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="youtube" href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end Footer -->
+
+
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/patient_profile.js"></script>
+  <script src="js/navfooter.js"></script>
+</body>
+
+</html>

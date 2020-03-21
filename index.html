@@ -1,0 +1,450 @@
+<!Doctype html>
+<html>
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Home</title>
+  <link rel="icon" href="img/tabIcon.png">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- Our style -->
+  <link rel="stylesheet" href="css/navFooter.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <!-- ------------------------------------- -->
+  <!-- Start Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark backcolor1 text-center">
+    <a class="navbar-brand" href="index.html"><img style="max-width:40px; margin-top: -7px;" src="img/logo.png"></a>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="allArticles.html">Articles <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="allPartners.html">Our Parteners</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="blood_bank_page.html">Blood Bank</a>
+            <a class="dropdown-item" href="lab_page.html">Laboratory</a>
+            <a class="dropdown-item" href="center_page.html">Medical Radiation Centers</a>
+            <a class="dropdown-item" href="hospital_page.html">Hospital</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item">Intensive Care</a>
+            <a class="dropdown-item">Incubators</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">Contact Us</a>
+        </li>
+      </ul>
+      <a class="btn btn-signInUp" href="signInUp.html">SignIn / Up</a>
+    </div>
+  </nav>
+  <!-- End Nav Babr -->
+  <!-- ------------------------------------- -->
+
+  <!-- Start Header -->
+  <header>
+    <div class="overlay"></div>
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="videos/headervideo.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-3">Medical Care</h1>
+          <p class="lead mb-0">Health is a crown on the head of healthy people</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+
+
+  <!-- Start Content -->
+  <!-- ------------------------------------- -->
+  <!-- Start Search -->
+  <section class="container-fluid p-5 hideme" id="search-section">
+    <form action="" method="">
+      <div id="search-container" class="row p-3">
+        <div class="form-group col-lg col-md-6 col-sm-12 mb-2 mb-lg-0">
+          <select class="custom-select">
+            <option name="department" selected disabled value="">Categorgy
+            </option>
+            <option>Blood Bank</option>
+            <option>Laboratory</option>
+            <option>Medical Radiation Centers</option>
+            <option>Intensive Care</option>
+            <option>Incubators</option>
+            <option>Medical Examination </option>
+          </select>
+        </div>
+
+
+        <div class="form-group col-lg col-md-6 col-sm-12  mb-2 mb-lg-0">
+          <select class="custom-select selected-city">
+            <option name="city" selected disabled value="">Type</option>
+            <option value="1">O−</option>
+            <option value="2">O+</option>
+            <option value="3">A−</option>
+            <option value="4">A+</option>
+            <option value="5">B−</option>
+            <option value="6">B+</option>
+            <option value="7">AB−</option>
+            <option value="8">AB+</option>
+
+          </select>
+        </div>
+
+        <div class="form-group col-lg col-md-6 col-sm-12  mb-2 mb-lg-0">
+          <select class="custom-select selected-governorate">
+            <option name="governorate" selected disabled value="">Governorate</option>
+            <option value="1">Cairo</option>
+            <option value="2">Giza</option>
+            <option value="3">Al qalyubia</option>
+          </select>
+        </div>
+
+        <div class="form-group col-lg col-md-6 col-sm-12">
+          <select class="custom-select selected-city">
+            <option name="city" selected disabled value="">City</option>
+            <option value="1">Naser City</option>
+            <option value="2">Maadi</option>
+            <option value="3">Al-Azhar</option>
+            <option value="4">Al salam</option>
+            <option value="5">Ain Shams</option>
+            <option value="6">Al marj</option>
+            <option value="7">Al Matarya</option>
+            <option value="8">Ezzbat Al nakhl</option>
+          </select>
+        </div>
+
+
+      </div>
+    </form>
+
+
+
+  </section>
+  <!-- End Search -->
+
+  <!-- ------------------------------------- -->
+  <!-- Start Articles -->
+  <section class="pb-5 hideme" id="Articles">
+    <div class="py-3 px-2 container">
+      <div class="col-md-12">
+        <h2 class=" bounceIn text-center text-muted py-5  display-4 font-weight-bold"><span>Atricles</span></h2>
+      </div>
+      <div class="row">
+        <!-- Item1 -->
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <div class="articleHover articleHover-4 text-white rounded"><img
+              src="https://res.cloudinary.com/mhmd/image/upload/v1570786266/hoverSet-7_uae7jt.jpg" alt="">
+            <div class="articleHover-overlay"></div>
+            <div class="articleHover-4-content">
+              <h3 class="articleHover-4-title text-uppercase font-weight-bold mb-0"><span
+                  class="font-weight-light">Image </span>Caption</h3>
+              <p class="articleHover-4-description text-uppercase mb-0 small">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit sed do eiusmod tempor incididunt <a data-scroll href="#"
+                  class="btn btn-default  fadeInUp" data--offset="50" data--delay="0.6s">Learn More</a></p>
+
+            </div>
+          </div>
+        </div>
+        <!-- Item2 -->
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <div class="articleHover articleHover-4 text-white rounded"><img
+              src="https://res.cloudinary.com/mhmd/image/upload/v1570786264/hoverSet-8_og89to.jpg" alt="">
+            <div class="articleHover-overlay"></div>
+            <div class="articleHover-4-content">
+              <h3 class="articleHover-4-title text-uppercase font-weight-bold mb-0"><span
+                  class="font-weight-light">Image </span>Caption</h3>
+              <p class="articleHover-4-description text-uppercase mb-0 small">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit sed do eiusmod tempor incididunt <a data-scroll href="#"
+                  class="btn btn-default  fadeInUp" data--offset="50" data--delay="0.6s">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Item3 -->
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <div class="articleHover articleHover-4 text-white rounded"><img
+              src="https://res.cloudinary.com/mhmd/image/upload/v1570786264/hoverSet-8_og89to.jpg" alt="">
+            <div class="articleHover-overlay"></div>
+            <div class="articleHover-4-content">
+              <h3 class="articleHover-4-title text-uppercase font-weight-bold mb-0"><span
+                  class="font-weight-light">About </span>coronavirus</h3>
+              <p class="articleHover-4-description text-uppercase mb-0 small">Lorem ipsum dolor sit amet consectetur
+                adipisicing elit sed do eiusmod tempor incididunt <a data-scroll href="#"
+                  class="btn btn-default  fadeInUp" data--offset="50" data--delay="0.6s">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- End Articles -->
+  <!-- ------------------------------------- -->
+
+  <!-- start Mission -->
+  <section class="pb-5 backcolor1 hideme" id="Mission">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center text-muted py-5  display-4 font-weight-bold"><span class="color5">Mission</span></h2>
+        </div>
+        <!-- Item1 -->
+        <div class="col-md-4 text-center">
+          <i class="fas fa-hourglass-start"></i>
+          <h4>Save Time</h4>
+          <p class="text-justify color5">It is our mission to help you save time and money, and avoid the common
+            pitfalls that many first-time medical services experience when they don’t get expert advice in advance.
+            Our website cooperates with many hospitals and laboratories and blood banks.
+            Compare tens of hospitals, laboratory and blood banks and hire the best for you. Pay after getting the
+            service as proposed.</p>
+        </div>
+        <!-- Item2 -->
+        <div class="col-md-4 text-center">
+          <i class="fas fa-shield-alt"></i>
+          <h4>Trust</h4>
+          <p class="text-justify color5">Our hospitals, laboratories, and blood banks have any certifications locally
+            and internationally.
+            The latest medical devices, the latest treatment methods, and the best doctors staff.
+            The best quality in their services</p>
+        </div>
+        <!-- Item3 -->
+        <div class="col-md-4 text-center">
+          <i class="fas fa-heartbeat"></i>
+          <h4>Save Life </h4>
+          <p class="text-justify color5">We have information on over 6000 hospitals. Find the nearest hospitals in your
+            area by using the search box above. Type in your full address, or city and state, or just your zip code in
+            the search box and then click Search. We will find hospitals that are closest to you and show them on a map.
+            You can then click on a hospital to get its details (e.g. address, phone and services) and directions. You
+            can also browse through our list of hospitals by our A-Z or State index below below.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Mission -->
+  <!-- ------------------------------------- -->
+
+
+  <!-- Start Statistics -->
+  <section class="pb-5 hideme" id="statistics">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-12">
+          <h2 class=" bounceIn text-center text-muted py-5  display-4 font-weight-bold"><span>Statistics</span></h2>
+        </div>
+
+        <!-- Item1 -->
+        <div class="col-md-3 col-sm-12 text-center border-dotted">
+          <p class="count-text mx-auto"><i class=" fas fa-user-injured statistics-icons display-4 mt-3"></i></p>
+          <h2 class="timer count-title count-number text-muted" data-to="126485" data-speed="3000">0</h2>
+        </div>
+        <!-- Item2 -->
+        <div class="col-md-3 col-sm-12 text-center border-dotted">
+          <p class="count-text mx-auto"><i class="far fa-hospital statistics-icons display-4 mt-3"></i></p>
+          <h2 class="timer count-title count-number text-muted" data-to="1365" data-speed="3000">0</h2>
+        </div>
+        <!-- Item3 -->
+        <div class="col-md-3 col-sm-12 text-center border-dotted">
+          <p class="count-text mx-auto"><i class="fas fa-flask statistics-icons display-4 mt-3"></i></p>
+          <h2 class="timer count-title count-number text-muted" data-to="2642" data-speed="3000">0</h2>
+        </div>
+        <!-- Item4 -->
+        <div class="col-md-3 col-sm-12 text-center">
+          <p class="count-text mx-auto"><i class="fas fa-user-md statistics-icons display-4 mt-3"></i></p>
+          <h2 class="timer count-title count-number text-muted" data-to="15315" data-speed="3000">0</h2>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- End Statistics -->
+
+
+  <!-- Start Patient Journey -->
+  <section class="pb-5 hideme" id="patientJourney">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-9 text-center p-0 ">
+          <div class="card1 px-0 pt-4 pb-0">
+            <div class="col-md-12">
+              <h2 class=" bounceIn text-center text-muted py-5  display-4 font-weight-bold"><span class="color5">Patient
+                  Journey</span></h2>
+            </div>
+            <!-- progressbar -->
+            <ul id="progressbar" class="px-0 mt-5">
+              <li class="active" id="request"><strong>Request</strong></li>
+              <li class="active" id="accepct"><strong>Confirm</strong></li>
+              <li class="active" id="appointment"><strong>Appointment</strong></li>
+              <li class="active" id="rate"><strong>Rate</strong></li>
+            </ul>
+            <div class="progress mb-5">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:0px"
+                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Patient Journey -->
+
+
+
+
+  <!-- ------------------------------------- -->
+  <!-- start partners -->
+  <section class="pb-5 hideme" id="partners">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-12">
+          <h2 class=" bounceIn text-center text-muted py-5  display-4 font-weight-bold"><span>Parteners</span></h2>
+        </div>
+        <!-- Item1 -->
+        <div class="card col-lg-3 col-md-5 col-11 pt-3 mx-auto mb-xs-5 mb-4 text-center boxshaow" style="width: 18rem;">
+          <img class="card-img-top rounded-circle imageshaow mx-auto"
+            src="https://res.cloudinary.com/mhmd/image/upload/v1570786266/hoverSet-7_uae7jt.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        <!-- Item2 -->
+        <div class="card col-lg-3 col-md-5 col-11 pt-3 mx-auto mb-xs-5 mb-4 text-center boxshaow" style="width: 18rem;">
+          <img class="card-img-top rounded-circle imageshaow mx-auto"
+            src="https://res.cloudinary.com/mhmd/image/upload/v1570786266/hoverSet-7_uae7jt.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+        <!-- Item3 -->
+        <div class="card col-lg-3 col-md-5 col-11 pt-3 mx-auto mb-xs-5 mb-4 text-center boxshaow" style="width: 18rem;">
+          <img class="card-img-top rounded-circle imageshaow mx-auto"
+            src="https://res.cloudinary.com/mhmd/image/upload/v1570786266/hoverSet-7_uae7jt.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of
+              the card's content.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- end partner -->
+
+  <!-- End Content -->
+  <!-- ------------------------------------- -->
+
+  <!-- ------------------------------------- -->
+  <!-- Start Footer -->
+  <footer class="site-footer backcolor1 hideme">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+          <div class="text-center mb-4 mt-5"><img class="footerLogo" src="img/logo.png"></div>
+          <h6 class="text-center">Medical Care</h6>
+          <!-- <p class="text-justify">our target is to safe your time effort and our target is to safe your time effort and </p> -->
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h6>FAQS</h6>
+          <ul class="footer-faqs text-capitalize">
+            <li>how can i register ?</li>
+            <li>how long it take to get answer ?</li>
+            <li>what is the range that the website cover ?</li>
+            <li>Terms & Conditions</li>
+            <li>Licenses</li>
+            <li>Premium Support</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h6>About Us </h6>
+          <ul class="footer-faqs text-capitalize">
+            <li>story</li>
+            <li>Vision</li>
+            <li>Mission</li>
+            <li>Team</li>
+            <li>Partenerships</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-3">
+          <h6>contact us</h6>
+          <p> <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+          <!-- <a class="" href="#"><i class="fa fa-phone"></i></a><br><br> -->
+          <form>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-signInUp text-white d-block mx-auto w-50">
+              <i class="fas fa-paper-plane mr-3"></i>send</button>
+          </form>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-6 col-xs-11">
+          <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+            <a href="#">Medical Care Website</a>.
+          </p>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-11">
+          <ul class="social-icons">
+            <li><a class="scroll-to-top" scroll-to-top-time="2000"><i class="fa fa-arrow-circle-up"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-5 col-sm-4 col-xs-11">
+          <ul class="social-icons">
+            <li><a class="googlePlus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="youtube" href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end Footer -->
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/navfooter.js"></script>
+</body>
+
+</html>
