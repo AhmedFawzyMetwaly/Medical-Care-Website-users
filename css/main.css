@@ -81,6 +81,25 @@ header .overlay {
 #search-container select option:hover {
 	background-color: rgba(13, 95, 95, 1);
 }
+#submitSearch {
+	background-color: #00171F;
+	color: rgba(13, 95, 95, 1);
+	border-color: rgba(13, 95, 95, 1);
+	border-radius: 5px;
+	height: calc(1.5em + 0.75rem + 2px);
+	margin-left: auto;
+	margin-right: auto;
+}
+#submitSearch:hover {
+	background-color: rgba(13, 95, 95, 1);
+	color: #00171F;
+	border-color: #00171F;
+}
+#submitSearch:focus {
+	box-shadow: 0 0 0 0.2rem rgba(13, 95, 95, 1);;
+
+}
+
 
 /* End Of Search Style */
 
